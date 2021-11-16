@@ -1,0 +1,566 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>
+Welcome to the One of the Best hub of Odisha 
+  </title>
+  <link rel="shortcut icon" href="https://d316slxpfg6dut.cloudfront.net/uploads/5036/school_details/logos/2958/original/20190624080645/ERP%20upload%203.png?Expires=1623052659&Signature=HQj0R25mJpItcxZe5wxbY0JyibNWm3pxgLowuehlX4GDMCB2MINQoXaPGkUCmKaUoffmgrGnUQBGnQLeezJuGkBnJ2ZHVAdsBNEOTZrt4RwkggJirmzk2sa8DkFCBpEPrcyH~YUzmdmyUeM6gHCQdMI-Yjy-LXtVW0b58sDhYQI_&Key-Pair-Id=APKAJZKMP45MLXDO32ZQ" type="image/x-icon">
+   <link rel="stylesheet" href="count.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manish Km">
+    <meta name="description" content="One and only heaven for knowledge">
+    <meta name="language" content="HTML,CSS,JS">
+    <meta name="IDE" content="VISUAL STUDIO CODE">
+    <meta name="ACCESS" content="ACCESS IS PUBLIC TO ANYONE">
+    <meta name="INITIAL RELEASE DATE" content="2021">
+    <meta name="AUTHOR" content="STUDENT OF SAINT THOMAS ENGLISH SCHOOL">
+    <meta name="WEBSITE TYPE" content="STATIC LANDING WEBSITE">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!--Link for google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--Link for font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="https://d316slxpfg6dut.cloudfront.net/uploads/5036/school_details/logos/2958/original/20190624080645/ERP%20upload%203.png?Expires=1620311005&Signature=h-gOc0H2D~OScl2YqmWKd4pYcHnwWut072ducMapgFTzF5FDJa6e39Xm8RSLsHhrQlxnyY6aRoCAgrC0Siokt320YKjC5nDHtcXG3deyLMuycTMU~sbVEsuMTJ~~9W8fqKDrSRxwjoq4xKPrd7o~2z5uMzVxS8pZTu-amq8yxJ0_&Key-Pair-Id=APKAJZKMP45MLXDO32ZQ" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="second.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            -webkit-font-smoothing: subpixel-antialiased;
+        }
+
+        .header {
+           
+            background-color: #f1f1f1;
+            padding: 20px 10px;
+            background-color:#D82E2F;
+            overflow: hidden;
+        }
+
+        .header a {
+            float: left;
+            color:white;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 25px;
+            border-radius: 4px;
+        }
+
+        .header a.logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .header a:hover {
+            /*background-color: #ddd;*/
+            color: #E8BD0D;
+        }
+
+       /* .header a.active {
+            /*background-color: dodgerblue;
+            color: white;*/
+       /* }*/
+       a.middle
+{
+    position: relative;
+}
+
+a.middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:#E8BD0D;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+a.middle:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+      
+        .header-right {
+            float: right;
+            background-color:#D82E2F;
+            position:sticky;
+        }
+
+        @media screen and (max-width: 500px) {
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+
+            .header-right {
+                float: none;
+                position:sticky;
+            }
+        }
+        .logo {
+            font-family: 'Itim', cursive;
+            background-color:#D82E2F;
+        }
+        * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+/* Caption text */
+.text {
+  color: red;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.Start_Letter {font-size:20px;}
+.line_1 {height: 3px;width: 150px; border-bottom: 3px solid rgb(233, 214, 45);}
+.line_2 {float:center;width: 250px; border-bottom: 3px solid rgb(233, 214, 45);}
+.about_us_header {font-family: 'Itim', cursive;}
+.about_us_header {color: #ffffff; font-size: 50px;}
+#about {background-color: #D82E2F; }
+#super {background-color: #EF5354; }
+#campus {background-color:#EF5354; text-align:center; align-items: center;
+float:center; }
+p {color: #ffffff; font-size:25px;}
+#icon-glyphicon {color:#ffffff;height: 24px;
+width: 24px;/*align-content: center; position:absolute; display: inline-block*/}
+#counter {color: #ffffff; font-family: Arial, Helvetica, sans-serif;}
+  #para {text-align: left; align-items: right;}
+  #quote {color: #FF6263; }
+  #quest, #half-quest{font-family: 'Indie Flower', cursive; color: #ffffff;}
+  #quest_div_class {margin:0 auto;}
+  lottie-player {margin:0 auto;}
+  #goals {background-color: #D82E2F; text-align:center; }
+  .alicea {color:#fff; font-weight: bold; height:100px;}
+  #journey {background-color: #EF5354; text-align:center;}
+  #let_see:hover {box-shadow: 5px, 5px, #ffffff; }
+  #contact {background-color: #EF5354; text-align:center; }
+  .alicea_button_new {background-color:#D82E2F; color: #ffffff;-webkit-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);
+-moz-box-shadow: 0px 6px 0px #EF5354, 0px 3px 15px rgba(0,0,0,.4);
+box-shadow: 0px 6px 0px #EF5354, 0px 3px 15px rgba(0,0,0,.4);
+/*height: 50px;
+width: 100px;*/
+border-radius: 5px;
+
+font-weight: 900;
+font-size: 18px;
+ font-family: 'Baloo Thambi 2', cursive;
+ border-color: darkorange;
+}
+#change-image {backdrop-filter: saturate(1.8);}
+.center_card_ { box-shadow: 0px 6px 0px #ef5354, 0px 3px 15px rgb(0 0 0 / 40%);  background: rgba(255,255,255, 0.3);
+  backdrop-filter: blur(100px);
+  border-radius: 20px;
+ margin:0 auto; align-items: center; text-align:left; border-color:yellow; border-style:solid; height: 500px; width: 400px;}
+#form {background-color: #D82E2F; align-items: center; text-align:left;} 
+#text_fa{border-style: solid; border-color: yellow; width: 400px; width: 390px}
+.stylus_input{height: 100px; border-radius: 5px;}
+.stylus_input2{ border-radius: 5px;}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+#end{background-color: #EF5354;}
+#contentcont{margin-left: 600px;
+    height: 100px;
+    width: 500px;
+}
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #EF5354; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  position: fixed; /* Stay it**/
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: aliceblue;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#mySidenav {position:fixed; color: #D82E2F; overflow-x: hidden;}
+wall {color:#fff; font-weight:900;}
+body {overflow-x: hidden;}
+body{scroll-behavior: smooth; margin: 0; padding: 0;}
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+#logoforweb:hover {
+color: #E8BD0D;
+text-shadow: 4px 4px 4px #ffebcd;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+ 
+    </style>
+    <script src="main.js"></script>
+</head>
+
+<body onLoad = "slideshow('change-image', arr);" onmouseover="gfg_Run();" onLoad="sizeFunc();">
+   <!--<div class="header">
+        <a href="#" class="logo" onmouseover="Logofunc()" id="logoforweb" color="#ffffff">Saint Thomas English School</a>
+        <div class="header-right">
+            <a class = "middle" href="#home">Home</a>
+            <a href="#about" class = "middle">About us</a>
+            <a href="#contact" class = "middle">Contact</a>
+            <a href="#home" class = "middle">Curriculum</a>
+            <a href="#contact" class = "middle">Board</a>
+            </div>-->
+            <!--<a href="#about">About</a>-->
+        <!--</div>-->
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#home" class="middle">Home</a>
+          <a href="#about" class="middle">About us</a>
+          <a href="#contact" class="middle">Contact</a>
+          <a href="#form" class = "middle">Contact form</a>
+          <a href="#board&curriculum" class = "middle">Board & Curriculum</a>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+        <!-- Use any element to open the sidenav -->
+       <span onclick="openNav()" id="more_span"> <a href="#" class="logo" onmouseover="Logofunc()" id="logoforweb" color="#ffffff" style="color:#fff;font-size:30px">Saint Thomas English School</a><span class="glyphicon glyphicon-menu-hamburger" id="more_icon" style="float:right; font-size:35px; background-color: #DE2E2F; color: aliceblue;"></span></span>
+        <br>
+        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->        
+        <section id="home"> 
+          <marquee direction = "right" style="font-family:'Itim', cursive;font-size:25px;background-color: #EF5354; color: aliceblue; text-shadow:1px 1px 1px, blanchedalmond">Welcome to Saint Thomas English School.  &nbsp; &nbsp; &nbsp; &nbsp;  Come anytime in mid march.   &nbsp; &nbsp; &nbsp; &nbsp;  Jharsuguda's one of the best secondary school</marquee>
+    
+          <!--Headline marquee-->
+    <img src = "https://www.planetodisha.com/upload/posts/1726.png" style = "width: 100%; height: 100%;" class="img-responsive zoomericked" id="change-image">
+    </section>
+    <!--Section Main Home Ends-->
+    <section id = "about">
+        <br> 
+        <div class="container" id="para" text-align="left">
+          <h1 class="about_us_header" id="about_us_heading" >About us</h1>
+          <div class="line_1" id="underline_heading"></div> 
+          <br>
+          <i class="fa fa-quote-left fa-5x" id="quote"></i>
+        <p>It has been glorious 25 years since we have started this journey of educating the society. This all started from a small but dear family of 25 students in a small building near Pahadi Mandir Jharsuguda.  Our Principal madam Mr Sheeba Daniel  was a first teacher there who laid the foundation of teaching in our school. Then because of the dedication and hard work of our Director Mr Shani Daniel and our Principal Mrs Sheeba Daniel , now our family has grown to be comprised of 1500+ students and is still growing. Here at ST. Thomas English School we make sure that our students are provided with best quality education and care.</p>
+        <br><br><br>
+
+        <h1 class="about_us_header" id="about_us_heading" >About our campus</h1>
+          <div class="line_1" id="underline_heading"></div> 
+          <br>
+          <p>Our School is one of the Odisha's Best Secondary School</p>
+          <br>
+          <p>We focus on scholastic development, personal growth, and ethical enrichment.</p>
+          <br><br>
+          <p> The School Building and playing field are standard in design and include a
+            general teaching area and specialized areas for science and digitalized
+            studies. A Modern Knowledge Centre, administration block, a fleet of 8 buses,
+            furnished library with books on various subjects and newly upgraded
+            computer laboratory completes the School's suite of facilities.</p>
+        </div>
+    </section>
+    <section id="super" text-align="right">
+      <span>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_eHVw8e.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover loop  autoplay></lottie-player>
+      </span>
+      <div class="container " id="quest_div" class="quest-div_class">
+      </div>
+      <br>
+      <div class="container " id="2ndpara" text-align="right">
+        <h1 class="about_us_header" id="about_us_heading">Get Super Guidance</h1>
+        <div class="line_2" id="underline_heading" ></div>
+        <br>
+  <p>The School currently has approximately 1400 students[Nursery to
+    Class X). Our School is staffed with 52 teachers who all are highly
+    qualified and experienced educators and 32 support personnel
+    
+    who work tirelessly for the smooth working of the school. We are
+    committed to providing quality education.</p>      
+    </div>
+</section>
+<section id="campus">
+<br>
+<div class="container " id="para">
+          <h1 class="about_us_header" id="about_us_heading" >Visit our campus</h1>
+          <div class="line_1" id="underline_heading"></div> 
+          <br>
+        <p>Applications for admission to Nursery are accepted from January for the new
+          academic session. Class starts from mid March. Admission to other classes will be taken
+          against chance vacancies at the beginning of the school year. No new admissions are
+          normally taken in class IX & X.
+          </p>
+        </div>
+    </section>
+    <section id="board&curriculum" style="text-align:left; background-color:#EF5354; color: #fff;" >
+      <br>
+      <div class="container " style="text-align: left; align-items: right;">
+                <h1 class="about_us_header" id="about_us_heading" >Board & Curriculum</h1>
+                <div class="line_1" id="underline_heading"></div> 
+                <br>
+               <p>The school strictly follows the rule of NCERT book pattern and ICSE study pattern. We teach our students Mathematics, Physics, Chemistry, Biology, History & Civics, Science, Social Studies or Social Science, Hindi Grammar and Hindi Literature, English Literature and Grammar, Odia, Geography, Economics, Computer Science, G.K, Drawing, V.ed (Value Education)</p>
+              </div>
+          </section>
+    <section id="goals">
+      <div class="container">
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_3SQyhp.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"    autoplay></lottie-player>
+      <h1 class="alicea">ACHIEVING GOALS WAS NEVER EASY BEFORE</h1>
+      <h1 class="alicea">SAINT THOMAS ENGLISH SCHOOL!!!</h1>
+      <h1 class="alicea">So Join now</h1>
+      
+        </div>
+    </section>
+      <section id="contact">
+        <br><br><br>
+    <h1 class="alicea">Contact us</h1>
+ <!--   <div class="line_2"></div> -->
+   <div class="container">
+    <span>
+<a href="mailto:stthomasjsg@gmail.com"><button class="alicea_button_new"><i class="fa fa-envelope-square"></i> Contact us via e-mail</button></a>
+    </span>
+    &nbsp;
+    &nbsp;
+    <span>
+      <a href="tel:06645273264"><button class="alicea_button_new"><i class="fa fa-phone"></i> Contact us via our enquiry number</button></a>
+</span>
+<br><br>
+<span>
+  <a href="https://www.facebook.com/stthomasjsg"><button class="alicea_button_new"><i class="fa fa-facebook"></i>&nbsp;Follow us on facebook</button></a>
+</span>
+<br><br><br><br>
+<h6 style="color: yellow;">*NOTE Call us anytime before 12:00pm</h6>
+</div>
+      </section>
+
+      <section id="form">
+        <br><br><br><br>
+<div class="card center_card_">
+  <br><br>
+  <h1 class="about_us_header">Contact form</h1>
+        <div class="line_2"></div>
+        <br><br>
+        &nbsp;
+        &nbsp;
+        <form action="mailto:stthomasjsg@gmail.com" method="post" enctype="text/plain">
+         Name:
+          <br>
+          <input type="text" name="name" class="stylus_input2" required><br><br>
+          Comment:<br>
+          <input type="text" name="comment"  class="stylus_input" required ><br><br>
+          <input type="submit" value="Send" class="btn btn-warning">
+          <input type="reset" value="Clear all" class="btn btn-danger">
+          </form>          
+      </div>
+</section>
+<!--
+<section id="end">
+  <br><br><br>
+  <div class="container" id="contentcont">
+  <span>
+  </span> 
+  <span>
+    <a href="https://www.facebook.com/stthomasjsg"><button class="alicea_button_new"><i class="fa fa-facebook"></i> Facebook</button></a>
+  </span>
+  &nbsp;
+  <span>
+    <wall>|</wall>
+    &nbsp;
+    <a href="mailto:stthomasjsg@gmail.com"><button class="alicea_button_new"><i class="fa fa-envelope-square"></i> Email</button></a>
+  </span>
+  &nbsp;
+  <span>
+    <wall>|</wall>
+    &nbsp;
+    <a href="whatsapp://send?text=Hey there! I have explored a new school called Saint Thomas English"><button class="alicea_button_new"><i class="fa fa-whatsapp"></i> Whatsapp</button></a>
+  </span>
+<br>
+<span>
+  <wall>|</wall>
+  &nbsp;
+  <a href="#home"></a>
+</span>
+<button class="chat" id="button5" style="border-radius: 50%;
+">h</button>
+</div>
+</section>-->
+<section id="copyright" style="background-color: #EF5354; text-align:center;">
+  <div class="container">
+  <div class="container" style="align-items: right;">
+ <span>
+    <div class="container" id="chatbot" style="visibility: hidden;">
+    <br><br><br><br><br>
+    <iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/4e9645ab-4207-414e-8af9-f2fd197d9c62">
+</iframe>
+  </div>
+  </span>
+  <br><br>
+    <span>
+    <button type="button" class="btn btn-warning btn-xl" style="height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid red; position:sticky;"  onclick="showChat();"
+    id="questionmark"><i class="fa fa-question" style="font-size:25px;"></i>
+</button>
+</span>
+<span>
+  <button type="button" class="btn btn-danger btn-xl" style="height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    visibility: hidden;
+    border: 1px solid red; position:sticky;"  onclick="closeChat();"
+    id="crossmark"><i class="fa fa-times" style="font-size:25px;  color:white;"></i>
+  </span>
+<br><br><br><br><br>
+  </span>
+  </div>
+  <div class="container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.7339248933754!2d84.0354571149407!3d21.867796563980914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a20e4154d163a67%3A0x7914cae33e6fe0ce!2sSt.%20Thomas%20English%20School!5e0!3m2!1sen!2sin!4v1623129693542!5m2!1sen!2sin" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+    </div>
+  <hr style="width: 100%"> </hr>
+  <a href="#" style="color: #fff;"><h5>Copyright穢 all rights reserved</h5></a>
+  <hr style="width: 100%"></hr>
+  <a href="#" style="color: #fff;">Affilated to New Delhi</a>
+  </div>
+</section>
+    <script async src="https://drv.tw/inc/wd.js"></script><script async src="https://drv.tw/inc/wd.js"></script></body>
+    </html>
